@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>guru.nidi</groupId>
+        <artifactId>guru-nidi-parent-pom</artifactId>
+        <version>1.1.21</version>
+        <relativePath />
+    </parent>
+
+    <artifactId>whatsapp-semi-bot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>${project.artifactId}</name>
+    <description></description>
+    <url>https://github.com/nidi3/whatsapp-semi-bot</url>
+    <inceptionYear>2019</inceptionYear>
+
+    <scm>
+        <connection>scm:git:https://github.com/nidi3/whatsapp-semi-bot</connection>
+        <developerConnection>scm:git:https://github.com/nidi3/whatsapp-semi-bot</developerConnection>
+        <url>https://github.com/nidi3/whatsapp-semi-bot</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <kotlin.version>1.3.20</kotlin.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib-jdk8</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+        </dependency>
+    </dependencies>
+
+    <build></build>
+
+
+</project>
